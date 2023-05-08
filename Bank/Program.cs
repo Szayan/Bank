@@ -8,15 +8,15 @@ namespace Bank
 {
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+        // The main entry point for the application
         [STAThread]
         static void Main()
         {
+            // Enable visual styles for the application
             Application.EnableVisualStyles();
+            // Set the default text rendering to be compatible with the application
             Application.SetCompatibleTextRenderingDefault(false);
+            // Run the main form of the application
             Application.Run(new Form1());
         }
     }
-}
